@@ -1,0 +1,14 @@
+package Week1;
+public class operatorprecedence {
+    public static void main(String[] args) {
+        // Evaluating the expressions
+        int result1 = 10 + 2 * 5;
+        int result2 = (10 + 2) * 5;
+        int result3 = 100 / 5 + 2 * 3 - 4;
+
+        // Printing the results
+        System.out.println("Result of 10 + 2 * 5: " + result1);
+        System.out.println("Result of (10 + 2) * 5: " + result2);
+        System.out.println("Result of 100 / 5 + 2 * 3 - 4: " + result3);
+    }
+}
